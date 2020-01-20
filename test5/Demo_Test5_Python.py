@@ -5,7 +5,7 @@ Create Time: 2020-1-20
 Info:  Python打包示例5，多层文件打包修改程序名 linux打包
     “pyinstaller -F(单个可执行文件) 程序源 -n 程序名 -w(去掉控制台窗口，这在GUI界面时非常有用) -i 图标.ico”
     “-p 表示自定义需要加载的类路径（一般情况下用不到）”
-    “pyinstaller -F Demo_Test5_Python.py -n Test5 -p /usr/local/python3.5/lib/python3.5/site-packages”
+    “pyinstaller -F Demo_Test5_Python.py -n Test5”
 """
 from sort.Demo_bubble_sort import bubble_sort
 from sort.Demo_heap_sort import heap_sort
